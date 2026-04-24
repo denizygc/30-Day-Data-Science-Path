@@ -1,0 +1,39 @@
+# Notebook environment
+jupyter
+ipykernel
+
+# Core data stack
+numpy
+pandas
+matplotlib
+openpyxl
+faker
+requests
+pydantic
+
+# Machine learning
+scikit-learn
+xgboost
+shap
+
+# Deep learning and NLP
+torch
+nltk
+transformers
+datasets
+accelerate
+sentence-transformers
+
+# LLM APIs and RAG
+openai
+langchain
+langchain-community
+langchain-openai
+chromadb
+faiss-cpu
+
+# OCR and document intelligence
+pillow
+pytesseract
+opencv-python
+easyocr
