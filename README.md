@@ -20,10 +20,14 @@ The project is organized as Jupyter notebooks. Each notebook is one learning day
 
 ```text
 .
-+-- Day_01_Phase1_PandasEssential.ipynb
-+-- Day_02_Phase1_NumpyVectorization.ipynb
-+-- ...
-+-- Day_30_Phase6_RagChatbotProject.ipynb
++-- Phase_1/
+|   +-- Day_01_Phase1_PandasEssential.ipynb
+|   `-- Day_05_Phase1_PyTorchBasics.ipynb
++-- Phase_2/
++-- Phase_3/
++-- Phase_4/
++-- Phase_5/
++-- Phase_6/
 +-- README.md
 `-- requirements.txt
 ```
@@ -43,36 +47,36 @@ The project is organized as Jupyter notebooks. Each notebook is one learning day
 
 | Day | File | Main topic |
 |---:|---|---|
-| 1 | `Day_01_Phase1_PandasEssential.ipynb` | pandas essentials |
-| 2 | `Day_02_Phase1_NumpyVectorization.ipynb` | NumPy arrays and vectorization |
-| 3 | `Day_03_Phase1_DataCleaningAndIO.ipynb` | data cleaning and file I/O |
-| 4 | `Day_04_Phase1_FakerAndPythonCore.ipynb` | Faker, synthetic data, and Python core skills |
-| 5 | `Day_05_Phase1_PyTorchBasics.ipynb` | PyTorch tensors, gradients, and neural network basics |
-| 6 | `Day_06_Phase2_TrainTestAndPipelines.ipynb` | train/test split and ML pipelines |
-| 7 | `Day_07_Phase2_LogRegAndTrees.ipynb` | logistic regression and decision trees |
-| 8 | `Day_08_Phase2_EnsemblesAndXGBoost.ipynb` | ensemble models and XGBoost |
-| 9 | `Day_09_Phase2_ClassificationMetrics.ipynb` | classification metrics |
-| 10 | `Day_10_Phase2_ShapAndProject.ipynb` | SHAP and an ML project |
-| 11 | `Day_11_Phase3_TextPreprocessingAndTFIDF.ipynb` | text preprocessing and TF-IDF |
-| 12 | `Day_12_Phase3_EmbeddingsAndTransformers.ipynb` | embeddings and transformer concepts |
-| 13 | `Day_13_Phase3_HuggingFaceBasics.ipynb` | Hugging Face pipelines, tokenizers, and models |
-| 14 | `Day_14_Phase3_FineTuningBERT.ipynb` | fine-tuning BERT with Hugging Face Trainer |
-| 15 | `Day_15_Phase3_ComplaintClassificationProject.ipynb` | complaint classification project |
-| 16 | `Day_16_Phase4_OpenAIAPI.ipynb` | OpenAI API basics |
-| 17 | `Day_17_Phase4_OllamaLocalModels.ipynb` | local LLMs with Ollama |
-| 18 | `Day_18_Phase4_PromptEngineering.ipynb` | prompt engineering |
-| 19 | `Day_19_Phase4_StructuredOutputExtraction.ipynb` | structured output extraction |
-| 20 | `Day_20_Phase4_InformationExtractionProject.ipynb` | information extraction project |
-| 21 | `Day_21_Phase5_TesseractBasics.ipynb` | Tesseract OCR basics |
-| 22 | `Day_22_Phase5_EasyOCRAndComparison.ipynb` | EasyOCR and Tesseract comparison |
-| 23 | `Day_23_Phase5_OpenCVPreprocessing.ipynb` | OpenCV preprocessing for OCR |
-| 24 | `Day_24_Phase5_OcrLlmPipeline.ipynb` | OCR plus LLM pipeline |
-| 25 | `Day_25_Phase5_DocumentIntelligenceProject.ipynb` | document intelligence project |
-| 26 | `Day_26_Phase6_EmbeddingsDeepDive.ipynb` | embeddings deep dive |
-| 27 | `Day_27_Phase6_ChunkingStrategies.ipynb` | chunking strategies |
-| 28 | `Day_28_Phase6_ChromaAndFAISS.ipynb` | ChromaDB and FAISS |
-| 29 | `Day_29_Phase6_LangChainRetrievalQA.ipynb` | LangChain retrieval QA |
-| 30 | `Day_30_Phase6_RagChatbotProject.ipynb` | RAG chatbot project |
+| 1 | `Phase_1/Day_01_Phase1_PandasEssential.ipynb` | pandas essentials |
+| 2 | `Phase_1/Day_02_Phase1_NumpyVectorization.ipynb` | NumPy arrays and vectorization |
+| 3 | `Phase_1/Day_03_Phase1_DataCleaningAndIO.ipynb` | data cleaning and file I/O |
+| 4 | `Phase_1/Day_04_Phase1_FakerAndPythonCore.ipynb` | Faker, synthetic data, and Python core skills |
+| 5 | `Phase_1/Day_05_Phase1_PyTorchBasics.ipynb` | PyTorch tensors, gradients, and neural network basics |
+| 6 | `Phase_2/Day_06_Phase2_TrainTestAndPipelines.ipynb` | train/test split and ML pipelines |
+| 7 | `Phase_2/Day_07_Phase2_LogRegAndTrees.ipynb` | logistic regression and decision trees |
+| 8 | `Phase_2/Day_08_Phase2_EnsemblesAndXGBoost.ipynb` | ensemble models and XGBoost |
+| 9 | `Phase_2/Day_09_Phase2_ClassificationMetrics.ipynb` | classification metrics |
+| 10 | `Phase_2/Day_10_Phase2_ShapAndProject.ipynb` | SHAP and an ML project |
+| 11 | `Phase_3/Day_11_Phase3_TextPreprocessingAndTFIDF.ipynb` | text preprocessing and TF-IDF |
+| 12 | `Phase_3/Day_12_Phase3_EmbeddingsAndTransformers.ipynb` | embeddings and transformer concepts |
+| 13 | `Phase_3/Day_13_Phase3_HuggingFaceBasics.ipynb` | Hugging Face pipelines, tokenizers, and models |
+| 14 | `Phase_3/Day_14_Phase3_FineTuningBERT.ipynb` | fine-tuning BERT with Hugging Face Trainer |
+| 15 | `Phase_3/Day_15_Phase3_ComplaintClassificationProject.ipynb` | complaint classification project |
+| 16 | `Phase_4/Day_16_Phase4_OpenAIAPI.ipynb` | OpenAI API basics |
+| 17 | `Phase_4/Day_17_Phase4_OllamaLocalModels.ipynb` | local LLMs with Ollama |
+| 18 | `Phase_4/Day_18_Phase4_PromptEngineering.ipynb` | prompt engineering |
+| 19 | `Phase_4/Day_19_Phase4_StructuredOutputExtraction.ipynb` | structured output extraction |
+| 20 | `Phase_4/Day_20_Phase4_InformationExtractionProject.ipynb` | information extraction project |
+| 21 | `Phase_5/Day_21_Phase5_TesseractBasics.ipynb` | Tesseract OCR basics |
+| 22 | `Phase_5/Day_22_Phase5_EasyOCRAndComparison.ipynb` | EasyOCR and Tesseract comparison |
+| 23 | `Phase_5/Day_23_Phase5_OpenCVPreprocessing.ipynb` | OpenCV preprocessing for OCR |
+| 24 | `Phase_5/Day_24_Phase5_OcrLlmPipeline.ipynb` | OCR plus LLM pipeline |
+| 25 | `Phase_5/Day_25_Phase5_DocumentIntelligenceProject.ipynb` | document intelligence project |
+| 26 | `Phase_6/Day_26_Phase6_EmbeddingsDeepDive.ipynb` | embeddings deep dive |
+| 27 | `Phase_6/Day_27_Phase6_ChunkingStrategies.ipynb` | chunking strategies |
+| 28 | `Phase_6/Day_28_Phase6_ChromaAndFAISS.ipynb` | ChromaDB and FAISS |
+| 29 | `Phase_6/Day_29_Phase6_LangChainRetrievalQA.ipynb` | LangChain retrieval QA |
+| 30 | `Phase_6/Day_30_Phase6_RagChatbotProject.ipynb` | RAG chatbot project |
 
 ## Setup
 
